@@ -15,6 +15,8 @@
 		840716EB2271CDE40075A557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840716EA2271CDE40075A557 /* main.m */; };
 		840716F32271DBED0075A557 /* UITouch+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 840716F22271DBED0075A557 /* UITouch+Category.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		840716F62271DF9C0075A557 /* LYShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 840716F52271DF9C0075A557 /* LYShareInstance.m */; };
+		8438D559227726E40007BA18 /* LYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438D558227726E40007BA18 /* LYView.m */; };
+		8438D55C22772D780007BA18 /* LYWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438D55B22772D780007BA18 /* LYWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,10 @@
 		840716F22271DBED0075A557 /* UITouch+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITouch+Category.m"; sourceTree = "<group>"; };
 		840716F42271DF9C0075A557 /* LYShareInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYShareInstance.h; sourceTree = "<group>"; };
 		840716F52271DF9C0075A557 /* LYShareInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYShareInstance.m; sourceTree = "<group>"; };
+		8438D557227726E40007BA18 /* LYView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYView.h; sourceTree = "<group>"; };
+		8438D558227726E40007BA18 /* LYView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYView.m; sourceTree = "<group>"; };
+		8438D55A22772D780007BA18 /* LYWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWindow.h; sourceTree = "<group>"; };
+		8438D55B22772D780007BA18 /* LYWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,10 @@
 				840716F22271DBED0075A557 /* UITouch+Category.m */,
 				840716F42271DF9C0075A557 /* LYShareInstance.h */,
 				840716F52271DF9C0075A557 /* LYShareInstance.m */,
+				8438D557227726E40007BA18 /* LYView.h */,
+				8438D558227726E40007BA18 /* LYView.m */,
+				8438D55A22772D780007BA18 /* LYWindow.h */,
+				8438D55B22772D780007BA18 /* LYWindow.m */,
 				840716E12271CDE20075A557 /* Main.storyboard */,
 				840716E42271CDE40075A557 /* Assets.xcassets */,
 				840716E62271CDE40075A557 /* LaunchScreen.storyboard */,
@@ -156,6 +166,8 @@
 				840716DD2271CDE20075A557 /* AppDelegate.m in Sources */,
 				840716F62271DF9C0075A557 /* LYShareInstance.m in Sources */,
 				840716F32271DBED0075A557 /* UITouch+Category.m in Sources */,
+				8438D55C22772D780007BA18 /* LYWindow.m in Sources */,
+				8438D559227726E40007BA18 /* LYView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
