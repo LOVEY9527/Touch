@@ -27,7 +27,7 @@
     //设置view可同时接收多个触摸，否则默认接收第一个触摸
     self.view.multipleTouchEnabled = YES;
     
-    self.firstSubView.hidden = YES;
+    self.firstSubView.hidden = NO;
     self.secondSubView.alpha = 0;
 }
 
