@@ -105,8 +105,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RAB-IN-Rx9">
-                                <rect key="frame" x="164.5" y="350.5" width="46" height="30"/>
-                                <state key="normal" title="hitTest"/>
+                                <rect key="frame" x="127" y="350.5" width="121" height="30"/>
+                                <state key="normal" title="hitTest &amp;&amp; 响应链"/>
                                 <connections>
                                     <segue destination="iSo-Io-daS" kind="push" id="Of0-cM-GMP"/>
                                 </connections>
@@ -118,22 +118,13 @@
                                     <segue destination="BYZ-38-t0r" kind="push" id="C0U-Ql-Kvq"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6J-E8-e9z">
-                                <rect key="frame" x="164.5" y="420.5" width="46" height="30"/>
-                                <state key="normal" title="响应链"/>
-                                <connections>
-                                    <segue destination="l4Z-Ya-0XE" kind="push" id="cMp-Rz-Tx4"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="RAB-IN-Rx9" firstAttribute="centerY" secondItem="rsO-eU-tds" secondAttribute="centerY" id="EO1-yu-jT1"/>
-                            <constraint firstItem="r6J-E8-e9z" firstAttribute="centerX" secondItem="rsO-eU-tds" secondAttribute="centerX" id="Mqa-iU-IV2"/>
                             <constraint firstItem="Hch-su-DYS" firstAttribute="centerY" secondItem="rsO-eU-tds" secondAttribute="centerY" constant="-70" id="Vqz-u2-uNE"/>
                             <constraint firstItem="RAB-IN-Rx9" firstAttribute="centerX" secondItem="rsO-eU-tds" secondAttribute="centerX" id="bfB-h4-FYS"/>
                             <constraint firstItem="Hch-su-DYS" firstAttribute="centerX" secondItem="rsO-eU-tds" secondAttribute="centerX" id="dPx-HW-rtO"/>
-                            <constraint firstItem="r6J-E8-e9z" firstAttribute="centerY" secondItem="rsO-eU-tds" secondAttribute="centerY" constant="70" id="kfM-cy-Ry7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rsO-eU-tds"/>
                     </view>
@@ -277,7 +268,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbN-qC-GMs">
-                                <rect key="frame" x="166" y="350.5" width="43" height="30"/>
+                                <rect key="frame" x="166" y="328.5" width="43" height="30"/>
                                 <state key="normal" title="model"/>
                                 <connections>
                                     <segue destination="rf6-kK-Tgd" kind="modal" id="6qL-kj-TxH"/>
