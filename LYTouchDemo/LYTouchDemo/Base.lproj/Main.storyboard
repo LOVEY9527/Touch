@@ -276,9 +276,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbN-qC-GMs">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbN-qC-GMs">
+                                <rect key="frame" x="166" y="350.5" width="43" height="30"/>
                                 <state key="normal" title="model"/>
                                 <connections>
                                     <segue destination="rf6-kK-Tgd" kind="modal" id="6qL-kj-TxH"/>
@@ -286,6 +285,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="RbN-qC-GMs" firstAttribute="centerY" secondItem="yej-ap-mw0" secondAttribute="centerY" id="9Jt-Ak-3gI"/>
+                            <constraint firstItem="RbN-qC-GMs" firstAttribute="centerX" secondItem="yej-ap-mw0" secondAttribute="centerX" id="etM-ZT-C1u"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="yej-ap-mw0"/>
                     </view>
                     <navigationItem key="navigationItem" title="pushed" id="Maw-yc-e36"/>

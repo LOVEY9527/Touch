@@ -10,12 +10,16 @@
 
 @implementation LYEView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    NSString *log = [NSString stringWithFormat:@"%@", NSStringFromClass([self class])];
+    UIResponder *nextResponder = self.nextResponder;
+    while (nextResponder) {
+        log = [log stringByAppendingFormat:@" -> %@", NSStringFromClass([nextResponder class])];
+        nextResponder = nextResponder.nextResponder;
+    }
+    NSLog(@"%@", log);
+    
+    [super touchesBegan:touches withEvent:event];
 }
-*/
 
 @end

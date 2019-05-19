@@ -13,6 +13,7 @@
 		840716E82271CDE40075A557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840716E62271CDE40075A557 /* LaunchScreen.storyboard */; };
 		840716EB2271CDE40075A557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840716EA2271CDE40075A557 /* main.m */; };
 		840716F62271DF9C0075A557 /* LYShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 840716F52271DF9C0075A557 /* LYShareInstance.m */; };
+		845D840622905EAC005EC324 /* LYApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D840522905EAC005EC324 /* LYApplication.m */; };
 		84DE243D22885FFD005594F8 /* LYRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE242D22885FFD005594F8 /* LYRootViewController.m */; };
 		84DE243E22885FFD005594F8 /* LYPushedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE242E22885FFD005594F8 /* LYPushedViewController.m */; };
 		84DE243F22885FFD005594F8 /* LYModeledViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DE242F22885FFD005594F8 /* LYModeledViewController.m */; };
@@ -39,6 +40,8 @@
 		840716EA2271CDE40075A557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		840716F42271DF9C0075A557 /* LYShareInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYShareInstance.h; sourceTree = "<group>"; };
 		840716F52271DF9C0075A557 /* LYShareInstance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYShareInstance.m; sourceTree = "<group>"; };
+		845D840422905EAC005EC324 /* LYApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYApplication.h; sourceTree = "<group>"; };
+		845D840522905EAC005EC324 /* LYApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYApplication.m; sourceTree = "<group>"; };
 		84DE242D22885FFD005594F8 /* LYRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYRootViewController.m; sourceTree = "<group>"; };
 		84DE242E22885FFD005594F8 /* LYPushedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYPushedViewController.m; sourceTree = "<group>"; };
 		84DE242F22885FFD005594F8 /* LYModeledViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYModeledViewController.m; sourceTree = "<group>"; };
@@ -99,6 +102,8 @@
 			children = (
 				840716DB2271CDE20075A557 /* AppDelegate.h */,
 				840716DC2271CDE20075A557 /* AppDelegate.m */,
+				845D840422905EAC005EC324 /* LYApplication.h */,
+				845D840522905EAC005EC324 /* LYApplication.m */,
 				840716F42271DF9C0075A557 /* LYShareInstance.h */,
 				840716F52271DF9C0075A557 /* LYShareInstance.m */,
 				84DE243A22885FFD005594F8 /* Category */,
@@ -232,6 +237,7 @@
 			files = (
 				84DE244F22886CFE005594F8 /* LYDView.m in Sources */,
 				84DE244022885FFD005594F8 /* ViewController.m in Sources */,
+				845D840622905EAC005EC324 /* LYApplication.m in Sources */,
 				84DE244622886CD6005594F8 /* LYAView.m in Sources */,
 				84DE243F22885FFD005594F8 /* LYModeledViewController.m in Sources */,
 				84DE244222885FFD005594F8 /* LYView.m in Sources */,

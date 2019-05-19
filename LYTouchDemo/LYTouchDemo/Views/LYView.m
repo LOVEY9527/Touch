@@ -43,4 +43,9 @@
     return [super pointInside:point withEvent:event];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+//    NSLog(@"%@ touchesBegan", NSStringFromClass([self class]));
+    [super touchesBegan:touches withEvent:event];
+}
+
 @end
